@@ -7,7 +7,7 @@
     scroll-behavior: smooth;
 }
 
-
+/* ----- NAVBAR -----  */
 
 #nav{
     background: #f9f9f9;
@@ -15,7 +15,7 @@
 
 #logo{
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 550;
     color: #000000;
     text-shadow: 0px 1px 1px black;
     margin-bottom: 5px;
@@ -44,6 +44,8 @@
     color: black;
 }
 
+
+
 /* ----- NAVBAR -----  */
 
 .home{
@@ -54,6 +56,8 @@
     background-size: cover;
 }
 
+/* ----- HOME ----- */
+
 .home .conteudo{
     text-align: center;
     padding-top: 200px;
@@ -63,5 +67,86 @@
     color: white;
     font-size: 38px;
     font-weight: 500px;
+    text-shadow: 0px 1px 1px black;
+}
+
+.home .conteudo h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+
+.home .conteudo p{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+/* Ainda não sei se vou usar desse jeito
+
+.home span{
+    color: red;
+}
+
+*/
+
+/* ----- HOME ----- */
+
+.txt-pr{
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+
+}
+
+
+/* ----- SERVIÇOS ----- */
+
+.servicos{
+    background-color: #f9f9f9;
+    margin-top: 50px;
+}
+
+.servicos .card{
+    box-shadow: rgba(0,0, 0, 0.1) 0px 4px 12px black;
+    border: none;
+    cursor: pointer;
+}
+
+.servicos .card i{
+    font-size: 80px;
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+}
+
+.servicos .card .card-body h3{
+    font-weight: 600;
+    text-align: center;
+}
+
+.servicos .card .card-body{
+    text-align: right;
+}
+
+/* ----- SERVIÇOS ----- */
+
+
+/* ----- FOOTER ----- */
+
+#footer{
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+#footer h1{
+    font-weight: 600;
+    padding-top: 30px;
     text-shadow: 0px 1px 1px black;
 }
