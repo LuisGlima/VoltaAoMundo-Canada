@@ -117,6 +117,7 @@
     cursor: pointer;
 }
 
+
 .servicos .card i{
     font-size: 80px;
     text-align: center;
@@ -130,7 +131,7 @@
 }
 
 .servicos .card .card-body{
-    text-align: right;
+    text-align: center;
 }
 
 /* ----- SERVIÇOS ----- */
