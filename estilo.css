@@ -37,7 +37,7 @@
 
 .nav-item .nav-link:hover{
     background: red;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -55,6 +55,22 @@
 .home .conteudo{
     text-align: center;
     padding-top: 200px;
+}
+
+.home .conteudo a{
+    padding: 10px;
+    background: white;
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: 550;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.home .conteudo a:hover{
+    background: #ff0000;
+    color: #f9f9f9;
 }
 
 .home .conteudo h5{
