@@ -21,10 +21,6 @@
     margin-bottom: 5px;
 }
 
-/* PINTAR LETRAS NO SEPARADOR <SPAN> */
-#logosep{
-    color: red;
-}
 
 .navbar-toggler span{
     color: red;
@@ -32,7 +28,7 @@
 
 .nav-item .nav-link{
     font-size: 16px;
-    font-weight: 550;
+    font-weight: 750;
     color: #000000;
     letter-spacing: 1px;
     border-radius: 3px;
@@ -77,6 +73,27 @@
     text-shadow: 0px 1px 1px black;
 }
 
+.changecontent::after{
+    content: ' ';
+    color: red;
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 10s infinite linear;
+}
+
+@keyframes changetext{
+    0% {content: "Toronto"; }
+    10% { content: "Montreal"; }
+    20% { content: "Vancouver"; }
+    30% { content: "Calgary"; }
+    40% { content: "Ottawa"; }
+    50% { content: "Edmonton"; }
+    60% { content: "Quebec City"; }
+    70% { content: "Winnipeg"; }
+    80% { content: "Mississauga"; }
+    90% { content: "Brampton"; }
+    100% { content: "Hamilton"; }
+}
+
 .home .conteudo p{
     color: white;
     font-size: 15px;
@@ -85,6 +102,9 @@
     margin-bottom: 30px;
     margin-top: 5px;
 }
+
+
+
 
 /* Ainda não sei se vou usar desse jeito
 
