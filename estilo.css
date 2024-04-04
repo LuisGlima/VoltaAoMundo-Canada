@@ -138,14 +138,14 @@
 
 /* ----- FOOTER ----- */
 
-#footer{
+#rodape{
     width: 100%;
     margin-top: 150px;
     text-align: center;
     background: #f9f9f9;
 }
 
-#footer h1{
+#rodape h1{
     font-weight: 600;
     padding-top: 30px;
     text-shadow: 0px 1px 1px black;
