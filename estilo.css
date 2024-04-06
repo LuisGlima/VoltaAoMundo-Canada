@@ -161,7 +161,7 @@
 }
 
 
-/* ----- IMAGES ----- */
+/* ----- IMAGENS ----- */
 .photo-gallery {
     color:#000000;
   }
@@ -180,16 +180,6 @@
       padding-top:25px;
       font-size:24px;
     }
-  }
-  
-  .photo-gallery .intro {
-    font-size:16px;
-    max-width:500px;
-    margin:0 auto 40px;
-  }
-  
-  .photo-gallery .intro p {
-    margin-bottom:0;
   }
   
   .photo-gallery .photos {
