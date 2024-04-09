@@ -49,7 +49,7 @@
 
 .home{
     width: 100%;
-    height: 90vh;
+    height: 80vh;
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(./img/canadeira_copiar.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,11 +57,20 @@
 
 .home-visto{
     width: 100%;
-    height: 70vh;
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(img/calgaryponte.jpg);
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(./img/visto.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.home-conheca{
+  width: 100%;
+  height: 80vh;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(./img/conheca.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 
 .home .conteudo{
